@@ -20,7 +20,7 @@ Para visualizar o projeto, basta abrir o arquivo `index.html` no navegador.
 Caso queira rodar localmente:  
 1. Clone o repositório:  
    ```bash
-   git clone https://github.com/Thainarodriguess/projeto-academico.git
+   (https://github.com/Thainarodriguess/trabalho-facul.git)
 
 
 
