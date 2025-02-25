@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="portifolio.html">Portifólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Para entrar em contato comigo -->
+    <section class="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo preenchendo o formulário abaixo: </p>
+        <form action="mailto: thainavieira660@gmail.com" method="post" enctype="text/plain">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea  name="mensagem" id="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>

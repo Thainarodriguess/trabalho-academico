@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2EEE7;
+    color: #393F50;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color: #393F50;
+    padding: 20px 0;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+    font-size: 20px;
+    margin: 10px;
+}
+
+header nav ul li{
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #F2EEE7;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover{
+    color: #F2EEE7;
+    border-bottom: 2px solid #F2EEE7;
+}
+
+section{
+    padding: 40px 15px;
+}
+
+main{
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.imagem-central{
+    width: 80%; 
+    max-width: 1000px; /* Limita o tamanho máximo */
+    margin-bottom: 100px; /* Espaço entre a imagem e o texto */
+}
+
+h1 h2 h3{
+    color: #393F50;
+}
+
+h1{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 2em;
+    margin-bottom: 15px;
+    margin-top: 80px;
+    
+}
+
+h3{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em; /* Tamanho do texto */
+    line-height: 1.6; /* Espaçamento entre as linhas */
+    margin-bottom: 50px;
+    
+}
+
+.descricao{
+    font-size: 1.5em;
+}
+
+a{
+    color:#393F50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.projeto{
+    margin-bottom: 150px;
+}
+
+.projeto1{
+    margin-bottom: 150px;
+}
+
+.projeto1 a {
+    background-color: #393F50;
+    color: #F2EEE7;
+    border-radius: 5px;
+    padding: 9px;
+
+}
+
+.contato h2{
+    text-align: center;
+}
+
+.contato p{
+    font-size: 1.3em;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Deixa os elementos em coluna */
+    max-width: 400px; /* Define uma largura máxima para o formulário */
+    margin: 0 auto; /* Centraliza na página */
+}
+
+form label {
+    margin-top: 10px; /* Adiciona espaço acima de cada label */
+}
+
+form input, 
+form textarea {
+    width: 100%; /* Faz com que os campos ocupem toda a largura disponível */
+    padding: 8px; /* Adiciona um espaçamento interno */
+    margin-top: 5px; /* Espaço entre o label e o input */
+    border: 1px solid #ccc; /* Adiciona uma borda leve */
+    border-radius: 5px; /* Arredonda levemente as bordas */
+}
+
+form button {
+    margin-top: 15px; /* Espaço antes do botão */
+    padding: 10px;
+    background-color: #393F50; /* Cor do botão */
+    color: #F2EEE7; /* Cor do texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2c3240; /* Cor ao passar o mouse */
+}
+
+footer{
+    background-color: #393F50;
+    color: #F2EEE7;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .redes-sociais ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+footer .redes-sociais ul li {
+    margin: 0 15px;
+}
+
+footer .redes-sociais ul li a {
+    color: #F2EEE7;
+    font-size: 18px;
+}
+
+footer .redes-sociais ul li a:hover {
+    color: #F2EEE7;
+    text-decoration: underline;
+}
